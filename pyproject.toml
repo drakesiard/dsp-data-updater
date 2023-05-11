@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dsp-data-updater"
+version = "0.1.0"
+description = ""
+authors = ["Drake Siard <drake.siard@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dsp_data_updater"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.3"
+pandas = "^2.0.1"
+slpp = "^1.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
